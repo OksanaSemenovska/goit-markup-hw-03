@@ -1,0 +1,237 @@
+:root {
+   --primary-font: 'Roboto', sans-serif;
+   --secondary-font:'Raleway', sans-serif;
+   --primary-text-color: #212121 ;
+   --secondary-text-color: #757575; 
+   --primary-text-color-theme-blew:#FFFFFF; 
+   --color-btn-text:#2196F3; 
+   --color-btn2: #188CE8;
+   --color-main-fone:#2F303A;
+   --color-studiologo: #000000;
+   --fone-btn-section: #F5F4FA;
+}
+
+.link{
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.head {
+    background: var(--primary-text-color-theme-blew);
+}
+.title{
+    background:var(--color-main-fone);
+}
+.ourfeatures {
+    background: var(--fone-btn-section);
+}
+
+.footer {
+    background:var(--color-main-fone);
+}
+
+
+/*WebStudio*/
+.webstudio-main {
+    font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color: var(--color-btn-text);
+}
+.webstudio-footer {
+    font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color: var(--color-btn-text);
+}
+.studio {
+    color: var(--color-studiologo);
+}
+.studio-footer {
+color: var(--primary-text-color-theme-blew);
+}
+
+    .menu-link {
+        font-family: var(--primary-font);
+        font-weight: 500;
+        line-height: 1.1;
+       color: var(--primary-text-color);
+    }
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--color-btn-text);
+}
+
+.contactfooter:hover,
+.contactfooter:focus {
+    color: var(--color-btn-text);
+}
+
+
+
+.contact {
+font-family: var(--primary-font);
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+    
+        color: var(--secondary-text-color);
+}
+.contact:hover,
+.contact:focus {
+    color: var(--color-btn-text);
+}
+
+.modal-open-btn {
+font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;   
+     display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-blew);
+    background-color: var(--color-btn-text);
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+background: var(--color-btn2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.features {
+    font-family: var(--primary-font);
+        font-weight: 700;
+        line-height: 1.1;
+        text-transform: uppercase;
+    
+        color: var(--primary-text-color);
+}
+
+
+
+.text-features
+{
+font-family: var(--primary-font);
+    line-height: 1.7;
+    color: var(--secondary-text-color);
+}
+
+.second-title {
+    font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        color: var(--primary-text-color);
+}
+
+.job {
+        font-family: var(--primary-font);
+        font-size: 16px;
+        line-height: 1.2; 
+        text-align: center;
+        color: var(--secondary-text-color);
+}
+
+.contactfooter {
+    font-family: var(--primary-font);
+        line-height: 1.7;
+        color: var(--secondary-text-color);
+}
+
+.adress {
+    font-family: var(--primary-font);
+        line-height: 1.7px;
+        color: var(--primary-text-color-theme-blew);}
+
+ .main-title {
+                    font-family: var(--primary-font);
+                    font-weight: 900;
+                    font-size: 44px;
+                    line-height: 1.5;
+                    text-align: center;
+                    letter-spacing: 0.06em;
+                    text-transform: uppercase;
+        
+                    color: var(--primary-text-color-theme-blew);}
+
+
+                    .name-people {
+                        background-color: var(--primary-text-color-theme-blew);
+                    }
+
+
+
+/* 2 page - Portfolio */
+
+.modal-open-btn2 {
+font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        color:var(--primary-text-color);
+        background-color: var(--fone-btn-section);
+}
+
+
+
+.modal-open-btn2:hover,
+.modal-open-btn2:focus {
+    color: var(--primary-text-color-theme-blew);
+    background-color: var(--color-btn-text);
+}
+
+.proekt {
+    font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    
+        color: var(--primary-text-color);
+}
+.work{font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+     color: var(--secondary-text-color);}
+
+.address {
+    font-style: normal;
+}
